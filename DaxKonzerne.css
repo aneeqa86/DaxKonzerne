@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+html{
+	background-color: silver;
+}
+
+/*html page*/
+.container {
+    height:100%;
+}
+
+/*header,footer*/
+header {
+	width:840px;
+    margin-left: 250px;
+    padding: 1em;
+	color: white;
+    background-color: violet;
+}
+
+.header_text{
+	 text-align: left;
+}
+
+footer{
+	width:840px;
+	margin-left: 0px;
+    padding: 1em;
+	color: white;
+    background-color: violet;
+}
+
+.footer_text{
+	text-align: left;
+	font-size:12px;
+}
+
+/*map*/
+.canvas{
+	background-color: silver;
+	padding: 10px 30px 50px 250px;
+	position: relative;
+}
+
+#germany{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+}
+
+#hamburg{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#lower_saxony{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#north_rhine_westphalia{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#hesse{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#rhineland_palatinate{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#baden_wurttemberg{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#bavaria{
+	background-color:white;
+	border-style: solid;
+    border-color: violet;
+    visibility: hidden;
+}
+
+#legend{
+    visibility: hidden;
+}
+
+/*Tooltip*/
+.tooltip{
+    font-size: 14px;
+    font-family:Lucida Sans Unicode
+}
+
+ /*Back Button*/
+#back_button {
+	visibility: hidden;
+}
